@@ -1,7 +1,7 @@
 <?php
 namespace BeGateway;
 
-class QueryByPaymentToken extends ApiAbstract {
+class QueryByToken extends ApiAbstract {
   protected $_token;
 
   protected function _endpoint() {
